@@ -5,7 +5,7 @@ metadata:
   labels:
     app: hello
 spec:
-  replicas: 3  # Número de réplicas que você quer
+  replicas: 8  # Número de réplicas que você quer
   selector:
     matchLabels:
       app: hello
